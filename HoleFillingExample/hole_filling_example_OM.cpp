@@ -25,7 +25,7 @@ typedef boost::graph_traits<Mesh>::face_descriptor face_descriptor;
 
 int main(int argc, char* argv[])
 {
-	const char* filename = (argc > 1) ? argv[1] : "data/mech-holes-shark.off";
+	const char* filename = (argc > 1) ? argv[1] : "data/bunny.ply";
 
 
 	Mesh mesh;
