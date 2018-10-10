@@ -25,7 +25,7 @@ typedef boost::graph_traits<Mesh>::face_descriptor face_descriptor;
 
 int main(int argc, char* argv[])
 {
-	const char* filename = (argc > 1) ? argv[1] : "data/bunny.ply";
+	const char* filename = (argc > 1) ? argv[1] : "data/mesh_result2.ply";
 
 
 	Mesh mesh;
@@ -62,5 +62,7 @@ int main(int argc, char* argv[])
 	std::cout << nb_holes << " holes have been filled" << std::endl;
 
 	OpenMesh::IO::write_mesh(mesh, "filled_OM.off");
+
+	system("pause");
 	return 0;
 }
