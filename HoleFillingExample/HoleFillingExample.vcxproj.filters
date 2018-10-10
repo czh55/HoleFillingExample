@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="hole_filling_example.cpp">
+    <ClCompile Include="hole_filling_example_OM.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
